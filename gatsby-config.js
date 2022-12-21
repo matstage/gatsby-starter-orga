@@ -1,16 +1,16 @@
 module.exports = {
   pathPrefix: `gatsby-starter-orga`,
   siteMetadata: {
-    title: `Gatsby With Orga`,
-    description: `This barebones starter ships with org-mode support.`,
-    author: `Xiaoxing Hu <xiaoxing@huxx.org>`,
+    title: `Mats Tage Axelsson using Gatsby With Orga`,
+    description: `Here you will find a web page created using org-mode support.`,
+    author: `Mats Tage Axelsson`,
   },
   plugins: [
     {
       resolve: `gatsby-theme-orga`,
       options: {
         // basePath: `/blog`, // if you want your content to be on a prefix, default is `/`
-        // contentPath: `blog`, // source of your org files, default to `content`
+        contentPath: `../Content`, // source of your org files, default to `content`
         // filter: { // filter of your posts, key should match metadata propperty names, default is {}
         //   category: `posts`,
         // },

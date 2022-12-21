@@ -3,16 +3,17 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby and Orga",
   "version": "1.0.0",
-  "author": "Xiaoxing Hu <xiaoxing@huxx.org>",
+  "author": "Mats Tage Axelsson <matstage@yahoo.com>",
   "dependencies": {
-    "gatsby": "^2.17.1",
-    "gatsby-theme-orga": "^1.8.4",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "gatsby": "^5.3.3",
+    "gatsby-theme-orga": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "npm-check": "^5.9.0",
-    "prettier": "^1.18.2"
+    "npm-check": "^6.0.1",
+    "prettier": "^2.8.1"
   },
   "keywords": [
     "gatsby",
@@ -32,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orgapp/gatsby-starter-orga.git"
+    "url": "git+https://github.com/matstage/gatsby-starter-orga.git"
   },
   "bugs": {
-    "url": "https://github.com/orgapp/gatsby-starter-orga/issues"
+    "url": "https://github.com/matstage/gatsby-starter-orga/issues"
   },
-  "homepage": "https://github.com/orgapp/gatsby-starter-orga#readme",
+  "homepage": "https://github.com/matstage/gatsby-starter-orga#readme",
   "main": "gatsby-browser.js"
 }
